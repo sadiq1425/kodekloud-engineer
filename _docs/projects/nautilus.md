@@ -54,3 +54,14 @@ The Nautilus is a three-tier application and is deployed in the Stratos Datacent
 |jump_host       | Dynamic       | jump_host.stratos.xfusioncorp.com |thor|mjolnir123|Jump Server to Access Stork DC
 |jenkins         | 172.16.238.19 | jenkins.stratos.xfusioncorp.com |jenkins|j@rv!s|Jenkins Server for CI/CD
  
+#  login Shortcuts from Jump Host
+
+sshpass -p 'Ir0nM@n' ssh -q -o "StrictHostKeyChecking no" tony@stapp01
+sshpass -p 'Am3ric@' ssh -q -o "StrictHostKeyChecking no" steve@stapp02
+sshpass -p 'BigGr33n' ssh -q -o "StrictHostKeyChecking no" banner@stapp03
+sshpass -p 'Mischi3f' ssh -q -o "StrictHostKeyChecking no" loki@stlb01
+sshpass -p 'Sp!dy' ssh -q -o "StrictHostKeyChecking no" peter@stdb01
+sshpass -p 'Bl@kW' ssh -q -o "StrictHostKeyChecking no" natasha@ststor01
+sshpass -p 'H@wk3y3' ssh -q -o "StrictHostKeyChecking no" clint@stbkp01
+sshpass -p 'Gr00T123' ssh -q -o "StrictHostKeyChecking no" groot@stmail01
+
